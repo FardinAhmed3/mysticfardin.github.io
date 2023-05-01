@@ -1,0 +1,33 @@
+h1, h2 {
+    color: #eb0000;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.project {
+    background-color: #09e68e;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.placeholder {
+    color: #000000;
+}
+div{
+    color: rgb(0, 0, 0);
+}
