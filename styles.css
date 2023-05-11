@@ -1,0 +1,59 @@
+body {
+    background: url('https://images.unsplash.com/photo-1530576224787-491411e471b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+h1 {
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    font-variant: normal;
+    font-family: comic sans MS;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5em;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(32, 32, 31, 0.3);
+}
+
+#songList {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.song:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(192, 180, 7, 0.3);
+}
+
+.song img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.song .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.song .spotify-link {
+    color: #1DB954;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.song .spotify-link:hover {
+    text-decoration: underline;
+}
