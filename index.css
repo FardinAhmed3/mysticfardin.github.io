@@ -1,13 +1,31 @@
+/* Base styles and setup */
+body {
+    background-color: #f3f4f6;
+    font-family: 'Roboto', sans-serif;
+    color: #787878;
+    padding: 20px;
+    line-height: 1.6;
+}
+
 h1, h2 {
-    color: #eb0000;
+    color: #1a73e8;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
 }
 
 h2 {
     margin-top: 50px;
+    font-size: 2em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
 }
 
-ul, p {
-    margin: 0;
+p {
+    margin-bottom: 20px;
     padding: 0;
 }
 
@@ -15,19 +33,55 @@ ul {
     list-style: none;
 }
 
-.section {
-    margin-bottom: 40px;
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .project {
-    background-color: #09e68e;
-    padding: 10px;
-    margin-bottom: 10px;
+    flex: 1;
+    background-color: #e8f0fe;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.placeholder {
-    color: #000000;
+.project img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
 }
-div{
-    color: rgb(0, 0, 0);
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #004aad;
+}
+
+/* Additional styles */
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1504418682362-6ad6257cb2fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');  /* Replace with a specific minimalist image URL if you have a preference */
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
+.project.hover {
+    transform: scale(1.05); /* Increase size on hover */
+    transition: transform 0.3s; /* Add a smooth transition */
 }
