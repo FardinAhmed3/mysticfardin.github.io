@@ -85,3 +85,10 @@ footer {
     transform: scale(1.05); /* Increase size on hover */
     transition: transform 0.3s; /* Add a smooth transition */
 }
+.skills-section {
+    background-color: #e8f0fe;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
