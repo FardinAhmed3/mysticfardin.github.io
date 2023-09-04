@@ -1,4 +1,3 @@
-/* Base styles and setup */
 body {
     background-color: #f3f4f6;
     font-family: 'Roboto', sans-serif;
@@ -63,8 +62,13 @@ a:hover {
     color: #004aad;
 }
 
-/* Additional styles */
+
 .profile-section {
+    background-color: #e8f0fe;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -82,8 +86,8 @@ footer {
     color: #666;
 }
 .project.hover {
-    transform: scale(1.05); /* Increase size on hover */
-    transition: transform 0.3s; /* Add a smooth transition */
+    transform: scale(1.05); 
+    transition: transform 0.3s; 
 }
 .skills-section {
     background-color: #e8f0fe;
@@ -91,4 +95,43 @@ footer {
     border-radius: 5px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+@keyframes gradientCycle {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background: linear-gradient(45deg, #e53935, #1e88e5, #43a047, #fdd835, #8e24aa);
+    background-size: 500% 500%;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    animation: gradientCycle 5s infinite;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+.button:hover {
+    background-color: #ffffff;
+        transform: scale(1.05);  
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+         
 }
