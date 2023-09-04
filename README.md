@@ -1,3 +1,3 @@
 [﻿# Personal-Website
-http://mysticfardin.github.io/
+fardinahmed.com
 ]
