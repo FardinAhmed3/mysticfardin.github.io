@@ -1,3 +1,3 @@
 [﻿# Personal-Website
-fardinahmed.com
+https://www.fardinahmed.com
 ]
