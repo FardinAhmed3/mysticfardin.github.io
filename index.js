@@ -1,3 +1,5 @@
+const currentYear = new Date().getFullYear();
+document.getElementById("current-year").textContent = currentYear;
 const projectTiles = document.querySelectorAll('.project');
 
 projectTiles.forEach(tile => {
