@@ -28,7 +28,8 @@ loader-wrapper {
 
 body {
     background-color: #f3f4f6;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Titillium Web", sans-serif;
+    font-size:large;
     color: #787878;
     padding: 20px;
     line-height: 1.6;
